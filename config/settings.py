@@ -8,7 +8,6 @@ from decouple import config
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-b+mrmv0re=ai)m&jj)i_pufw6b)h7+$pta&2$))7dd_y9l(y31"
 SECRET_KEY = config("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
